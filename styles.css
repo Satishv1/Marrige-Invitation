@@ -1,0 +1,165 @@
+
+/**Intro**/
+
+.heading{
+    background-color:hotpink;
+    text-align:center;
+    padding: 85px;
+    margin:1px;
+    border-radius:10px;
+    animation: fadeZoomin 3s ease-out forwards;
+    opacity: 0;
+    transform: scale(0.9);
+
+    
+}
+@keyframes fadeZoomin{
+    to{
+    opacity: 1;
+    transform:scale(1);
+}
+}
+
+.heading h1{
+    color:aliceblue; 
+}
+
+.hero{
+    text-align:center;
+    background-color: bisque;
+    padding:5px;
+    border-radius: 10px;
+    animation: fadeZoomin 3s ease-out forwards;
+     opacity: 0;
+    transform: scale(0.9);
+    animation-delay: 3s;
+
+}
+
+/**Wedding Details**/
+
+.details{
+    text-align: center;
+    background-color:lemonchiffon;
+    
+    margin: 0px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(1,1,1,0.4);
+}
+
+.main-list{
+    list-style:none;
+    padding:0;
+
+}
+.sub-list{
+    list-style:disc;
+    padding-left:20px;
+    display:inline-block;
+    text-align:left;
+    margin-top:5px;
+    margin-bottom:20px;
+}
+
+.details h2{
+     box-shadow: 0px 4px 8px rgba(1,1,1,0.4);
+    background-color:lightcoral;
+    padding:20px;
+    border-radius: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/**Story**/
+
+.timeline{
+    background-color:rgb(226, 223, 223);
+    text-align: center;
+    padding-bottom:50px;
+    border-radius: 5px;
+
+}
+.time{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:15px;
+    margin-top: 20px;
+}
+
+
+.event{
+    background-color: rgb(247, 247, 247);
+    border-radius:8px;
+    padding:5px;
+    box-shadow: 0px 4px 8px rgba(1,1,1,0.2);
+    height: 95px;
+    width:220;
+    text-align: center;
+}
+
+/**Gallrey**/
+
+img{
+    height:40%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(1,1,1,0.2);
+}
+.gallery{
+    text-align: center;
+    background: navajowhite;
+    padding: 2px;
+    border-radius: 8px;
+}
+.rsvp{
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+}
+
+/**Footer**/
+
+.rsvp a{
+    color:red;
+
+}
+
+.footer{
+   background-color: #222;
+   color:white;
+   padding:20px;
+   text-align:center;
+}
+.footer p{
+    margin:10px 0;
+
+}
+.social-icons a{
+    margin: 0 6px;
+    font-size:24px;
+    text-decoration: none;
+
+}
+
+.social-icons a.whatsapp{
+    color:#25d366;
+}
+
+.social-icons a.facebook{
+    color:#3b5998;
+}
+
+.social-icons a.instagram{
+    color:#c13584;
+}
+
+.social-icons a.youtube{
+    color:#ff4444;
+}
+.social-icons a:hover{
+    opacity: 0.8;
+}
+
+
